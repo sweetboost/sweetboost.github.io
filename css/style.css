@@ -44,7 +44,7 @@
 
 body {
 	font-family: "Black Ops One";
-	/* background-color: #060F16; */
+	background-color: #060F16;
 	color: #ffffff;
 }
 
@@ -69,14 +69,14 @@ body {
 .background {
 	background-image: url("../img/BG_1.jpg");
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	background-size: cover;
 	width: 100vw;
-	height: 977px;
+	max-height: 977px;
 }
 
 
 .header {
-	padding: 10px 0 47px 0;
+	padding: 10px 0 70px 0;
 	position: relative;
 	z-index: 6;
 }
@@ -140,6 +140,9 @@ body {
 	padding: 15px 40px;
 	border-radius: 12px;
 	transition: box-shadow 200ms ease;
+	font-size: 19px;
+	letter-spacing: 6px;
+	white-space: nowrap;
 }
 
 .menu__link:hover {
